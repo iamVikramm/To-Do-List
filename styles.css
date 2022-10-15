@@ -1,0 +1,150 @@
+body{
+    background-color: #AAC4FF;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/**************** ******* Heading  ****************/
+.heading{
+    margin-left: 215px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: darkviolet;
+}
+
+/*********************** Container ****** ************/
+.container{
+    width: 650px;
+    background-image: linear-gradient(to right top, #eb71f7, #e079f9, #d57ffa, #cb85fa, #c18af9, #9e9cff, #7caaff, #64b5ff, #18caff, #00ddff, #00eef7, #44fde2);
+    border-radius: 30px;
+}
+
+/* ********* ****** Container-Head * ******* ***** */
+
+.container-head{
+    text-align: center;
+    margin: 5px 0px;
+    margin-left: 48px;
+    width: 540px;
+    height: 40px;
+    background-color:white;
+    padding-top: 9px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    box-shadow: 3px 3px 0px 0px ;
+    
+    
+}
+.container-head .description{
+    width: 440px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding-left: 8px;
+    font-size: 18px;
+    color: black;
+    
+}
+/* Plus button  */
+.fa-file-circle-plus{
+    margin-right: 3px;
+    font-size: 20px;
+    color: blue;
+}
+.fa-circle-plus{
+    font-size: 21.5px;
+    margin-left: 5px;
+    color:green;
+}
+.fa-circle-plus:hover{
+    color: gray;
+}
+
+/*************** Container-Body ************/
+
+li{
+    margin-top: 10px;
+    height: 40px;
+    width: 540px;
+    display: flex;
+    background-color: #CDFCF6;
+    margin-left: 10px;
+    border-radius: 30px;
+    align-items: center;
+
+}
+.container-body ul li input{
+    margin-left: 6px;
+}
+
+.listText{
+    background-color: #CDFCF6;
+    border: none;
+    outline: none;
+    width: 420px;
+    margin-left: 2px;
+    font-size: 15px;
+    
+}
+
+/*****    Input form   ******/
+input[type="text"]{
+    border-radius: 30px;
+}
+
+.edit{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+}
+ .fa-trash{
+    margin-left: 4px;
+    cursor: pointer;
+    color: blue;
+}
+.edit:hover{
+    color: gray;
+}
+.fa-trash:hover{
+    color: red;
+}
+
+/************* Container-Footer *********/
+
+.container-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+}
+.container-foot p {
+    margin: 0 0;
+    color: #fff;
+}
+
+/******************* If checkbox checked ***************/
+
+input[type = checkbox]+ label{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type = checkbox]+ label>input {
+    
+    height: 30px;
+ 
+}
+
+input[type = checkbox]:checked + label>input  {
+    font-size: large;
+    color: red;
+    font-family: cursive;
+}
+
+
